@@ -77,3 +77,26 @@ dofile(default_path.."/crafting.lua")
 dofile(default_path.."/mapgen.lua")
 dofile(default_path.."/aliases.lua")
 dofile(default_path.."/legacy.lua")
+-Stvk zone
+log
+
+	minetest.register_decoration({
+		name = "default:outpost",
+		deco_type = "schematic",
+		place_on = {"default:dirt_with_grass"},
+		sidelen = 16,
+		noise_params = {
+			offset = 0.024,
+			scale = 0.015,
+			spread = {x = 128, y = 250, z = 128},
+			seed = 8,
+			octaves = 3,
+			persist = 0.66
+		},
+		biomes = {"deciduous_forest"},
+		y_max = 31000,
+		y_min = 1,
+		schematic = minetest.get_modpath("default") .. "/schematics/outpost.mts",
+		flags = "place_center_x, place_center_z",
+		rotation = "random",
+	})
