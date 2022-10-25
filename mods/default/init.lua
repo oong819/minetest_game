@@ -77,8 +77,7 @@ dofile(default_path.."/crafting.lua")
 dofile(default_path.."/mapgen.lua")
 dofile(default_path.."/aliases.lua")
 dofile(default_path.."/legacy.lua")
--Stvk zone
-log
+--Stvk zone
 
 	minetest.register_decoration({
 		name = "default:outpost",
