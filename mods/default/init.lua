@@ -108,8 +108,8 @@ dofile(default_path.."/legacy.lua")
 		noise_params = {
 			offset = 0.024,
 			scale = 0.015,
-			spread = {x = 250, y = 250, z = 250},
-			seed = 2,
+			spread = {x = 500, y = 500, z = 500},
+			seed = 24,
 			octaves = 3,
 			persist = 0.66
 		},
@@ -118,5 +118,4 @@ dofile(default_path.."/legacy.lua")
 		y_min = 1,
 		schematic = minetest.get_modpath("default") .. "/schematics/calmzone.mts",
 		flags = "place_center_x, place_center_z",
-		rotation = "random",
 	})
