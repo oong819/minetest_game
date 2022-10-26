@@ -85,8 +85,8 @@ dofile(default_path.."/legacy.lua")
 		place_on = {"default:dirt_with_grass"},
 		sidelen = 16,
 		noise_params = {
-			offset = 0.024,
-			scale = 0.015,
+			offset = 0.014,
+			scale = 0.005,
 			spread = {x = 5000, y = 5000, z = 5000},
 			seed = 8,
 			octaves = 1,
@@ -106,8 +106,8 @@ dofile(default_path.."/legacy.lua")
 		place_on = {"default:dry_dirt_with_dry_grass"},
 		sidelen = 16,
 		noise_params = {
-			offset = 0.024,
-			scale = 0.015,
+			offset = 0.014,
+			scale = 0.005,
 			spread = {x = 5000, y = 5000, z = 5000},
 			seed = 4,
 			octaves = 1,
