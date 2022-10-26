@@ -87,7 +87,7 @@ dofile(default_path.."/legacy.lua")
 		noise_params = {
 			offset = 0.024,
 			scale = 0.015,
-			spread = {x = 800, y = 800, z = 800},
+			spread = {x = 2000, y = 2000, z = 2000},
 			seed = 8,
 			octaves = 1,
 			persist = 0.66
@@ -108,7 +108,7 @@ dofile(default_path.."/legacy.lua")
 		noise_params = {
 			offset = 0.024,
 			scale = 0.015,
-			spread = {x = 800, y = 800, z = 800},
+			spread = {x = 2000, y = 2000, z = 2000},
 			seed = 24,
 			octaves = 1,
 			persist = 0.66
