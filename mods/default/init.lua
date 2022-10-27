@@ -111,7 +111,7 @@ dofile(default_path.."/legacy.lua")
 			spread = {x = 128, y = 128, z = 128},
 			seed = 4,
 			octaves = 1,
-			persist = 0.66
+			persist = 0.80
 		},
 		biomes = {"savanna"},
 		y_max = 31000,
