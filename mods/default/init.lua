@@ -79,6 +79,18 @@ dofile(default_path.."/aliases.lua")
 dofile(default_path.."/legacy.lua")
 --Stvk zone
 
+minetest.register_biome({
+    name = "deadlydesert",
+    node_top = "default:desert_sand",
+    depth_top = 1,
+    node_filler = "default:desert_sandstone",
+    depth_filler = 3,
+    y_max = 1000,
+    y_min = -3,
+    heat_point = 100,
+    humidity_point = 0,
+})
+
 	minetest.register_decoration({
 		name = "default:outpost",
 		deco_type = "schematic",
