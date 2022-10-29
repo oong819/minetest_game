@@ -194,7 +194,7 @@ minetest.register_decoration({
 		flags = "place_center_x, place_center_z",
 	})
 
-default.chest.register_chest({
+default.chest.register_chest(default:thest,
 	description = "Thest",
 	tiles = {
 		"default_chest_top.png",
@@ -208,5 +208,5 @@ default.chest.register_chest({
 	sound_open = "default_chest_open",
 	sound_close = "default_chest_close",
 	groups = {not_in_creative_inventory = 1},
-	breakable = false,
-})
+	walkable = false,
+)
