@@ -100,7 +100,7 @@ minetest.register_biome({
 		noise_params = {
 			offset = -0.02,
 			scale = 0.001,
-			spread = {x = 5, y = 5, z = 5},
+			spread = {x = 15, y = 15, z = 15},
 			seed = 8,
 			octaves = 1,
 			persist = 0.66
@@ -121,7 +121,7 @@ minetest.register_biome({
 		noise_params = {
 			offset = -0.02,
 			scale = 0.001,
-			spread = {x = 5, y = 5, z = 5},
+			spread = {x = 15, y = 15, z = 15},
 			seed = 4,
 			octaves = 1,
 			persist = 0.80
@@ -141,10 +141,10 @@ minetest.register_decoration({
 		noise_params = {
 			offset = -0.02,
 			scale = 0.001,
-			spread = {x = 5, y = 5, z = 5},
+			spread = {x = 15, y = 15, z = 15},
 			seed = 8,
 			octaves = 1,
-			persist = 0.66
+			persist = 0.7
 		},
 		biomes = {"deciduous_forest"},
 		y_max = 31000,
@@ -162,10 +162,10 @@ minetest.register_decoration({
 		noise_params = {
 			offset = -0.02,
 			scale = 0.001,
-			spread = {x = 5, y = 5, z = 5},
+			spread = {x = 15, y = 15, z = 15},
 			seed = 4,
 			octaves = 1,
-			persist = 0.80
+			persist = 0.7
 		},
 		biomes = {"rainforest"},
 		y_max = 31000,
@@ -182,10 +182,10 @@ minetest.register_decoration({
 		noise_params = {
 			offset = -0.02,
 			scale = 0.001,
-			spread = {x = 5, y = 5, z = 5},
+			spread = {x = 15, y = 15, z = 15},
 			seed = 4,
 			octaves = 1,
-			persist = 0.80
+			persist = 0.7
 		},
 		biomes = {"deadlydesert"},
 		y_max = 31000,
