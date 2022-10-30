@@ -194,22 +194,22 @@ minetest.register_decoration({
 		flags = "place_center_x, place_center_z",
 	})
 
-default.chest.register_chest(default:thest, {
-	description = "Thest",
-	tiles = {
-		"default_chest_top.png",
-		"default_chest_top.png",
-		"default_chest_side.png",
-		"default_chest_side.png",
-		"default_chest_front.png",
-		"default_chest_inside.png"
-	}, -- Textures which are applied to the chest model.
-	sounds = default.node_sound_wood_defaults(),
-	sound_open = "default_chest_open",
-	sound_close = "default_chest_close",
-	groups = {not_in_creative_inventory = 1},
-	walkable = false,
-})
+--default.chest.register_chest(default:thest, {
+--	description = "Thest",
+--	tiles = {
+--		"default_chest_top.png",
+--		"default_chest_top.png",
+--		"default_chest_side.png",
+--		"default_chest_side.png",
+--		"default_chest_front.png",
+--		"default_chest_inside.png"
+--	}, -- Textures which are applied to the chest model.
+--	sounds = default.node_sound_wood_defaults(),
+--	sound_open = "default_chest_open",
+--	sound_close = "default_chest_close",
+--	groups = {not_in_creative_inventory = 1},
+--	walkable = false,
+--})
 
 register_node("default:build2unlock", {
 	description = S("Build To Unlock"),
