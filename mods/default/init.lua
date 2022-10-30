@@ -194,7 +194,7 @@ minetest.register_decoration({
 		flags = "place_center_x, place_center_z",
 	})
 
-default.chest.register_chest(default:thest,
+default.chest.register_chest(default:thest, 
 	description = "Thest",
 	tiles = {
 		"default_chest_top.png",
@@ -210,3 +210,21 @@ default.chest.register_chest(default:thest,
 	groups = {not_in_creative_inventory = 1},
 	walkable = false,
 )
+
+register_node("default:build2unlock", {
+	description = S("Build To Unlock"),
+	inventory_image = "default_steel_block.png^keys_key_skeleton.png",
+	paramtype = "light",
+	sunlight_propagates = true,
+	buildable_to = true,
+	tiles = {"default_stone.png^loc.png"},
+})
+
+register_node("default:flood2unlock", {
+	description = S("Flood To Unlock"),
+	inventory_image = "default_steel_block.png^keys_key_skeleton.png",
+	paramtype = "light",
+	sunlight_propagates = true,
+	floodable = true,
+	tiles = {"default_water.png^loc.png"},
+})
