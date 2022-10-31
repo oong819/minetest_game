@@ -212,7 +212,7 @@ minetest.register_decoration({
 --})
 
 register_node("default:build2unlock", {
-	description = S("Build To Unlock"),
+	description = ("Build To Unlock"),
 	inventory_image = "default_steel_block.png^keys_key_skeleton.png",
 	paramtype = "light",
 	sunlight_propagates = true,
